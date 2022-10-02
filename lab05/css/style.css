@@ -1,0 +1,27 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	background-color: #F4F6F9;
+}
+.list{
+    width: 20vw;
+}
+.list .valor1{
+    color: #070633;
+}
+.valor2{
+    color: #0000ff;
+    
+}
+.valor3{
+    color: #000066;
+}
+.valor4{
+    color: #000051;	
+}
+.valor5{
+    color: #2621ff;
+}
