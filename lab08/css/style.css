@@ -1,0 +1,63 @@
+body {
+    background-color: #E5E5E5;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+  }
+
+  #box {
+    line-height: 50px;
+    position: absolute;
+    width: 551px;
+    height: 220px;
+    left: 161px;
+    top: 156px;
+    background-color: rgb(16, 51, 94);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5%;
+  }
+
+  .title {
+    top: 74px;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  .instruction {
+    left: 75px;
+  }
+  #text {
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px;
+    background: #FFFFFF;
+  }
+  #btn_01 {
+    color: white;
+    background-color: #0085ff;
+    position: absolute;
+    padding: 0px;
+    width: 142px;
+    height: 30px;
+    border-radius: 5px;
+    left: 333px;
+  }
+  #btn_02 {
+    color: white;
+    background-color: #ff0000;
+    padding: 0px;
+    width: 142px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  #Response {
+    color: black;
+    display: grid;
+    align-content: center;
+    justify-content: left;
+    border-radius: 5%;
+  }
