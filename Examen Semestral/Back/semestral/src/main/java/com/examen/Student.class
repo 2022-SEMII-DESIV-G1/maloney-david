@@ -1,0 +1,38 @@
+package com.examen;
+
+public class Student {
+    String name, lastname,ident;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+
+    public String getIdent() {
+        return ident;
+    }
+
+    public void setIdent(String ident) {
+        this.ident = ident;
+    }
+
+    public ArraysList<Student> lisStuden (){
+        
+    }
+
+
+
+    
+}

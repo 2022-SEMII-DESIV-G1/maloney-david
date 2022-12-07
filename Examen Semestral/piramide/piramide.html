@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piramid</title>
+    <link rel="stylesheet" href="diseno.css">
+</head>
+<body>
+ 
+
+    <form id="piramide-form" action=""> 
+        <label for="name">Piramide</label>
+        <input id="name" name="name" type="text">
+        <button type="submit">Mostrar</button>
+    </form>
+    <div class="cars"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const form =documen.querySelector('#piramide-form')
+        const name =documen.querySelector('#name')
+        form.addEventListener('submit',async (e) => {
+e.preventDefault();
+const response = await axios.get('http://localhost:4567/hello');
+console.log({ response});
+        })
+    </script>
+</body>
+</html>
